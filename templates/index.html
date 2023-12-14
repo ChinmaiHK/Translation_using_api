@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang = "hi" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="text-input">
+          <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+          <textarea spellcheck="false" class="from-to" 
+          readonly disabled placeholder="Translation"></textarea>
+        </div>
+        <ul class="controls">
+          <li class="row from">
+           
+            <select></select>
+          </li>
+          
+          <li class="row to">
+          </li>
+        </ul>
+      </div>
+      <button>Answer</button>
+    </div>
+
+    <!--Mention the full location of the files contries.js and script.js-->
+
+    <script type="text/javascript" src="../static/js/countries.js"></script>
+    <script type="text/javascript" src="../static/js/script.js"></script>
+
+  </body>
+</html>
